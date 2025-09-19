@@ -1,12 +1,16 @@
 import Container from '~/Global/Container'
 import About from '~~/home/About'
 import Projects from '~~/works/Projects'
+import Blog from '~~/works/Blog'
+import Footer from '~~/home/Footer' 
 
 export default function HomePage() {
   return (
     <Container>
       <About delay={0.2} />
       <Projects view="home" delay={0.4} />
+      <Blog/>
+      <Footer/>
     </Container>
   )
 }
