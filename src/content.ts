@@ -1,6 +1,6 @@
-import BozzhikImage from '$/profile/bozzhik.jpg'
-import BozzhikImage2 from '$/profile/bozzhik2.jpg'
-import BozzhikImage3 from '$/profile/bozzhik3.jpg'
+import BozzhikImage from '$/profile/profile.png'
+import BozzhikImage2 from '$/profile/profile.png'
+import BozzhikImage3 from '$/profile/profile.png'
 import CursorIcon from '$/icons/cursor.svg'
 
 import GithubIcon from '$/icons/github.svg'
@@ -11,46 +11,41 @@ import ReactNativeIcon from '$/icons/about/react-native.svg'
 import ReactIcon from '$/icons/about/react.svg'
 import NextJSIcon from '$/icons/about/nextjs.svg'
 import TailwindCSSIcon from '$/icons/about/tailwindcss.svg'
+import Controller from '$/icons/about/controller.svg'
+import Anime from '$/icons/about/anime.svg'
 
-import GraphiteImage from '$/projects/graphite.png'
-import MurinoImage from '$/projects/murino.png'
-import SnableImage from '$/projects/snable.png'
-import CarmateImage from '$/projects/carmate.png'
-import HotkeysImage from '$/projects/hotkeys.png'
-import ArkaImage from '$/projects/arka.png'
-import HiddenImage from '$/projects/hidden.png'
-import OrientirImage from '$/projects/orientir.png'
-import KillaImage from '$/projects/killa.png'
-import Graphite2Image from '$/projects/graphite2.png'
-import MuellerImage from '$/projects/mueller.png'
-import KorostelevImage from '$/projects/korostelev.png'
-import DrSpillerImage from '$/projects/drspiller.png'
-import ZapImage from '$/projects/zap.png'
-import UdelnayaImage from '$/projects/udelnaya.png'
+import GraphiteImage from '$/projects/shiori.png'
+import MurinoImage from '$/projects/BGZAP.webp'
+import SnableImage from '$/projects/GUAP.webp'
+import CarmateImage from '$/projects/emerald.png'
+import HotkeysImage from '$/projects/QUICK.webp'
+import HiddenImage from '$/projects/FRESCO.webp'
+
+
 
 export const CONTENT = {
   global: {
     person: {
-      name: 'Maxim Bozhik',
+      name: 'Brian Ali',
       taglines: ['Turning caffeine into code.', 'Making pixels push themselves.', "I make websites work. You're welcome.", 'Just a dev doing dev things.', 'Coding, creating, conquering (bugs).', 'Making websites that magically work.'],
       pictures: [BozzhikImage, BozzhikImage2, BozzhikImage3],
       cursor: CursorIcon,
     },
     navigation: {
       github: {
-        link: 'https://github.com/bozzhik',
+        link: 'https://github.com/brianali-codes',
         content: GithubIcon,
       },
       x: {
-        link: 'https://x.com/bozzhik',
+        link: 'https://x.com/brianali427',
         content: XIcon,
       },
       telegram: {
-        link: 'https://t.me/bozzhik',
+        link: 'https://t.me/brianali427',
         content: TelegramIcon,
       },
       cv: {
-        link: '/cv',
+        link: '/Brian-Ali-resume.pdf',
         content: 'Resume',
         color: null,
         contrast: false,
@@ -59,12 +54,14 @@ export const CONTENT = {
   },
   homePage: {
     about: {
-      text: 'I develop interactive web applications using React, Next JS, and Tailwind CSS, while creating powerful mobile apps with React Native.',
+      text: 'I develop interactive web applications using React, Next JS, and Tailwind CSS, while creating powerful mobile apps with React Native. Outside of coding, I’m fueled by Video Games and  Anime — both of which inspire the way I design engaging, user-focused experiences. Whether it’s crafting smooth UI animations or building immersive apps, I approach projects with the same creativity I admire in storytelling and game worlds.',
       badges: [
         {text: 'React Native', icon: ReactNativeIcon},
         {text: 'React', icon: ReactIcon},
         {text: 'Next JS', icon: NextJSIcon},
         {text: 'Tailwind CSS', icon: TailwindCSSIcon},
+        {text: 'Video Games', icon: Controller},
+        {text: 'Anime', icon: Anime},
       ],
     },
   },
@@ -72,123 +69,54 @@ export const CONTENT = {
 
 export const PROJECTS = {
   graphite: {
-    name: 'Graphite House',
-    descriptor: "Venue's Event Page",
+    name: 'Remaya Org',
+    descriptor: "Mobile Wallpaper App",
     image: GraphiteImage,
-    link: 'https://graphite.house',
-    color: '#FB6BB3',
-    featured: true,
-  },
-  murino: {
-    name: 'Murino',
-    descriptor: 'Football Complex Website',
-    image: MurinoImage,
-    link: 'https://murino.ru',
+    link: 'https://shiori.framer.website/',
     color: '#58944A',
     featured: true,
   },
-  snable: {
-    name: 'Snable Extension',
-    descriptor: 'Chrome Extension Hub',
-    image: SnableImage,
-    link: 'https://snable.website',
+  carmate: {
+    name: 'Emerald Consultation',
+    descriptor: 'Emerald consultation website',
+    image: CarmateImage,
+    link: 'https://emerald-orpin.vercel.app/',
+    color: '#4169E1',
+    featured: true,
+  },
+ 
+  hotkeys: {
+    name: 'Quicktech College',
+    descriptor: 'quicktechcollege website',
+    image: HotkeysImage,
+    link: 'https://quicktechcollege.netlify.app/',
+    color: '#EADD34',
+    featured: true,
+  },
+  murino: {
+    name: 'BGZap',
+    descriptor: 'Remove Background of any image.',
+    image: MurinoImage,
+    link: 'https://bgzap.netlify.app/',
     color: '#525252',
     featured: true,
   },
-  carmate: {
-    name: 'Carmate',
-    descriptor: 'Carwash Booking Website',
-    image: CarmateImage,
-    link: 'https://carmate.moscow',
-    color: '#F97316',
-    featured: true,
-  },
-  hotkeys: {
-    name: 'HOTKEYS',
-    descriptor: 'Shortcuts Archive',
-    image: HotkeysImage,
-    link: 'https://hotkeys.adc.ac',
-    color: '#CBFB45',
-    featured: true,
-  },
-  arka: {
-    name: 'Arka',
-    descriptor: 'Consulting Firm Website',
-    image: ArkaImage,
-    link: 'https://arkadvisory.global',
-    color: '#093C2E',
+  snable: {
+    name: 'Frapp',
+    descriptor: 'Get videogame giveaways',
+    image: SnableImage,
+    link: 'https://frapp.netlify.app/',
+    color: '#2AC6D0',
     featured: true,
   },
   hidden: {
-    name: 'Hidden Collection',
-    descriptor: 'Vinyl Label Website',
+    name: 'Fresco Wallpapers',
+    descriptor: 'Get HD wallpapers',
     image: HiddenImage,
-    link: 'https://h1ddencollection.com',
+    link: 'https://frescowallpapers.netlify.app/',
     color: '#C20000',
     featured: true,
   },
-  orientir: {
-    name: 'Orientir',
-    descriptor: 'Property Developer Webite',
-    image: OrientirImage,
-    link: 'https://orientir.ru',
-    color: '#DA291C',
-    featured: true,
-  },
-  killa: {
-    name: 'Killa Club',
-    descriptor: 'NFT Collection Website',
-    image: KillaImage,
-    link: 'https://killaclub.com',
-    color: '#286056',
-    featured: true,
-  },
-  graphite2: {
-    name: 'Graphite Event Ak-47 Obladaet Dose Reptiloid',
-    descriptor: 'Concert Event Page',
-    image: Graphite2Image,
-    link: 'https://graphite-house.vercel.app',
-    color: '#FB6BB3',
-    featured: true,
-  },
-  mueller: {
-    name: 'Mueller Wagner',
-    descriptor: 'Law Firm Website',
-    image: MuellerImage,
-    link: 'https://muellerwagner.ru',
-    color: '#30394A',
-    featured: true,
-  },
-  korostelev: {
-    name: 'Korostelev',
-    descriptor: 'Legal Firm Website',
-    image: KorostelevImage,
-    link: 'https://korostelev.legal',
-    color: '#C82A22',
-    featured: true,
-  },
-  drspiller: {
-    name: 'Dr. Spiller',
-    descriptor: 'Premium Cosmetics Store',
-    image: DrSpillerImage,
-    link: 'https://dr-spiller.kz',
-    color: '#7D756F',
-    featured: false,
-  },
-  zap: {
-    name: 'Zap',
-    descriptor: 'Express Delivery Website',
-    image: ZapImage,
-    link: 'https://zap.ae',
-    color: '#B2F711',
-    featured: false,
-  },
-  udelnaya: {
-    name: 'Sanatoriy Udelnaya',
-    descriptor: 'Health Resort Website',
-    image: UdelnayaImage,
-    link: 'https://sanatoriyudelnaya.ru',
-    color: '#991C2F',
-    featured: false,
-  },
+
+  
 }

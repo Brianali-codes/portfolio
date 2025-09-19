@@ -3,13 +3,13 @@ import localFont from 'next/font/local'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Maxim Bozhik — Developer',
-    template: '%s — Maxim Bozhik',
+    default: 'Brian Ali — Developer',
+    template: '%s — Brian Ali',
   },
   description: 'Creative developer, specializing in building stunning landing pages, interactive websites, and powerful web & mobile applications.',
-  keywords: 'bozzhik, bozhik, bojic, maxim bozzhik, maxim bozhik, maxim bojic, website developer, frontend developer, landing pages, interactive websites, веб-разработчик, веб-разработка, веб-сайт',
+  keywords: 'brianali, brian, ali, alibrian, brian ali, brianali-codes, website developer, frontend developer, landing pages, interactive websites, portfolio, brianali-codes-github, portfolio-templates',
   openGraph: {
-    images: 'https://bozzhik.com' + '/open-graph.jpg',
+    images: 'https://brianali.netlify.app' + '/open-graph.jpg',
   },
 }
 
