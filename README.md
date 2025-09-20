@@ -1,6 +1,6 @@
 # ⚡️developer portfolio
 
-![bozzhik.com snapshot](https://bozzhik.com/open-graph.jpg)
+<img width="1280" height="1024" alt="Untitled design (1)" src="https://github.com/user-attachments/assets/97a546bc-f409-458c-926e-7cc4bf541f6a" />
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [Typescript File](https://github.com/bozzhik/portfolio/blob/main/src/content.ts)
