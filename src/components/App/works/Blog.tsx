@@ -46,10 +46,10 @@ export default function Blog() {
     <section className="max-w-4xl mx-auto px-6 py-16">
        <div className="my-6 h-[2px] w-full bg-white border-white border-dotted border-2"></div>
         <div className="flex justify-between items-center">
-            <h2 className="text-2xl font-extrabold text-start">Blogs</h2>
+            <h2 className="text-lg font-extrabold text-start">Blogs</h2>
             <h2 className="text-sm font-extrabold text-start">Brian ali on medium.com</h2>
         </div>
-        
+        <div className="my-6 h-[2px] w-full bg-white border-white border-dotted border-2"></div>
     <div className="h-5"></div>
 
 
