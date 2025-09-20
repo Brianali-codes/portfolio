@@ -30,12 +30,17 @@ export default function Blog() {
 
   useEffect(() => {
     async function fetchFeed() {
-      const parser: Parser<unknown, CustomFeedItem> = new Parser();
-      const feed = await parser.parseURL("https://medium.com/feed/@gamerfunky78");
-      setItems(feed.items);
+      try {
+        const res = await fetch("/.netlify/functions/getFeed");
+        const data: CustomFeedItem[] = await res.json();
+        setItems(data);
+      } catch (err) {
+        console.error("Error fetching feed:", err);
+      }
     }
     fetchFeed();
   }, []);
+  
 
   return (
     <section className="max-w-4xl mx-auto px-6 py-16">
