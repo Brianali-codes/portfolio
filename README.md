@@ -1,6 +1,7 @@
 # ⚡️developer portfolio
 
-![bozzhik.com snapshot](https://bozzhik.com/open-graph.jpg)
+![open-graph](https://github.com/user-attachments/assets/9ac0e189-d833-48f0-aa54-40e231ee4476)
+
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [Typescript File](https://github.com/bozzhik/portfolio/blob/main/src/content.ts)
