@@ -1,5 +1,4 @@
 import {PROJECTS} from '@/content'
-import Image from 'next/image'
 import {cn} from '@/lib/utils'
 
 import Block from '~/UI/Block'

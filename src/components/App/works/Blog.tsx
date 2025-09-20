@@ -30,7 +30,7 @@ export default function Blog() {
 
   useEffect(() => {
     async function fetchFeed() {
-      const parser: Parser<{}, CustomFeedItem> = new Parser();
+      const parser: Parser<unknown, CustomFeedItem> = new Parser();
       const feed = await parser.parseURL("https://medium.com/feed/@gamerfunky78");
       setItems(feed.items);
     }
