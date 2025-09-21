@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Creative developer, specializing in building stunning landing pages, interactive websites, and powerful web & mobile applications.',
   keywords: 'brianali, brian, ali, alibrian, brian ali, brianali-codes, website developer, frontend developer, landing pages, interactive websites, portfolio, brianali-codes-github, portfolio-templates',
   openGraph: {
-    images: 'https://brianali.netlify.app' + '/open-graph.jpg',
+    images: 'https://brianali.netlify.app' + '/profile.png',
   },
 }
 
