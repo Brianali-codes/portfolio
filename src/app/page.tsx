@@ -1,7 +1,6 @@
 import Container from '~/Global/Container'
 import About from '~~/home/About'
 import Projects from '~~/works/Projects'
-import Blog from '~~/works/Blog'
 import Footer from '~~/home/Footer' 
 
 export default function HomePage() {
