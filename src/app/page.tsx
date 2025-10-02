@@ -9,7 +9,6 @@ export default function HomePage() {
     <Container>
       <About delay={0.2} />
       <Projects view="home" delay={0.4} />
-      <Blog/>
       <Footer/>
     </Container>
   )
