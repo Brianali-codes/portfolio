@@ -6,7 +6,7 @@
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [Typescript File](https://github.com/bozzhik/portfolio/blob/main/src/content.ts)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
-- **Deployment**: [Vercel](https://vercel.com)
+- **Deployment**: [Vercel](https://netlify.com)
 
 ## Run Locally
 
