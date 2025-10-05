@@ -21,8 +21,12 @@ pnpm dev
 
 Customize your portfolio by modifying the [`content.ts`](https://github.com/bozzhik/portfolio/blob/main/src/content.ts) file found in `src/`
 
+Credits to @bozzhik for providing the template for this portfolio
+
 ## License
 
 1. You are free to use this code as inspiration.
 2. Please do not copy it directly.
 3. Crediting the author is appreciated.
+
+
