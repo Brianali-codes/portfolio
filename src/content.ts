@@ -17,7 +17,7 @@ import Anime from '$/icons/about/anime.svg'
 import GraphiteImage from '$/projects/shiori.png'
 import MurinoImage from '$/projects/BGZAP.webp'
 import SnableImage from '$/projects/GUAP.webp'
-import CarmateImage from '$/projects/emerald.png'
+import CarmateImage from '$/projects/Hajira.webp'
 import HotkeysImage from '$/projects/QUICK.webp'
 import HiddenImage from '$/projects/FRESCO.webp'
 
@@ -77,10 +77,10 @@ export const PROJECTS = {
     featured: true,
   },
   carmate: {
-    name: 'Emerald Consultation',
-    descriptor: 'Emerald consultation website',
+    name: 'Hajira Org',
+    descriptor: 'Uber - but for microjobs',
     image: CarmateImage,
-    link: 'https://emerald-orpin.vercel.app/',
+    link: 'https://hajira-org.netlify.app',
     color: '#4169E1',
     featured: true,
   },
