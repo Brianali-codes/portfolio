@@ -17,9 +17,9 @@ import Anime from '$/icons/about/anime.svg'
 import GraphiteImage from '$/projects/shiori.png'
 import MurinoImage from '$/projects/BGZAP.webp'
 import SnableImage from '$/projects/GUAP.webp'
-import CarmateImage from '$/projects/Hajira.webp'
+import CarmateImage from '$/projects/RM.webp'
 import HotkeysImage from '$/projects/QUICK.webp'
-import HiddenImage from '$/projects/FRESCO.webp'
+import HiddenImage from '$/projects/frapp.webp'
 
 
 
@@ -110,10 +110,10 @@ export const PROJECTS = {
     featured: true,
   },
   hidden: {
-    name: 'Fresco Wallpapers',
-    descriptor: 'Get HD wallpapers',
+    name: 'Frapp Mobile App',
+    descriptor: 'Get video game giveaways',
     image: HiddenImage,
-    link: 'https://frescowallpapers.netlify.app/',
+    link: 'https://frappgiveaways.vercel.app/',
     color: '#C20000',
     featured: true,
   },
