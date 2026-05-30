@@ -16,9 +16,9 @@ import Anime from '$/icons/about/anime.svg'
 
 import GraphiteImage from '$/projects/shiori.png'
 import MurinoImage from '$/projects/BGZAP.webp'
-import SnableImage from '$/projects/GUAP.webp'
-import CarmateImage from '$/projects/RM.webp'
-import HotkeysImage from '$/projects/QUICK.webp'
+import SnableImage from '$/projects/VCW.png'
+import CarmateImage from '$/projects/RM.png'
+import HotkeysImage from '$/projects/Hajira.webp'
 import HiddenImage from '$/projects/frapp.webp'
 
 
@@ -76,20 +76,36 @@ export const PROJECTS = {
     color: '#58944A',
     featured: true,
   },
+    hidden: {
+    name: 'Frapp Mobile App',
+    descriptor: 'Get video game giveaways',
+    image: HiddenImage,
+    link: 'https://frappgiveaways.vercel.app/',
+    color: '#C20000',
+    featured: true,
+  },
+   snable: {
+    name: 'Frapp',
+    descriptor: 'Get videogames for low end pc',
+    image: SnableImage,
+    link: 'https://vicioware.netlify.app/',
+    color: '#2AC6D0',
+    featured: true,
+  },
   carmate: {
-    name: 'Hajira Org',
-    descriptor: 'Uber - but for microjobs',
+    name: 'Remaya Org',
+    descriptor: 'Charity Organization Website',
     image: CarmateImage,
-    link: 'https://hajira-org.netlify.app',
+    link: 'https://remaya.netlify.app',
     color: '#4169E1',
     featured: true,
   },
  
   hotkeys: {
-    name: 'Quicktech College',
-    descriptor: 'quicktechcollege website',
+    name: 'Hajira Org',
+    descriptor: 'Uber - but for microjobs',
     image: HotkeysImage,
-    link: 'https://quicktechcollege.netlify.app/',
+    link: 'https://hajira-org.netlify.app',
     color: '#EADD34',
     featured: true,
   },
@@ -101,22 +117,8 @@ export const PROJECTS = {
     color: '#525252',
     featured: true,
   },
-  snable: {
-    name: 'Frapp',
-    descriptor: 'Get videogame giveaways',
-    image: SnableImage,
-    link: 'https://frapp.netlify.app/',
-    color: '#2AC6D0',
-    featured: true,
-  },
-  hidden: {
-    name: 'Frapp Mobile App',
-    descriptor: 'Get video game giveaways',
-    image: HiddenImage,
-    link: 'https://frappgiveaways.vercel.app/',
-    color: '#C20000',
-    featured: true,
-  },
+ 
+ 
 
   
 }
